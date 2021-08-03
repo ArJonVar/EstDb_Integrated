@@ -1,0 +1,50 @@
+{
+    "output": [
+      {
+        "divisionChoice": "default",
+        "headerChoice": "default",
+        "costComponentsInformation": "default",
+        "id": 1
+      },
+      {
+        "divisionChoice": "default2",
+        "headerChoice": "default2",
+        "costComponentsInformation": "default2",
+        "id": 2
+      },
+      {
+        "divisionChoice": "DIVISION 05 - Metals Outline",
+        "headerChoice": "05 70 00- Decorative Metal",
+        "costComponentsInformation": [],
+        "id": 3
+      },
+      {
+        "divisionChoice": "DIVISION 03 - Concrete",
+        "headerChoice": "03 33 00- Architectural Concrete",
+        "costComponentsInformation": [
+          "0007: True,  ",
+          "0008: False,  ",
+          "0009: test,  ",
+          "0010: test2,  "
+        ],
+        "id": 4
+      },
+      {
+        "divisionChoice": "DIVISION 03 - Concrete",
+        "headerChoice": "03 33 00- Architectural Concrete",
+        "costComponentsInformation": [],
+        "id": 5
+      },
+      {
+        "divisionChoice": "DIVISION 03 - Concrete",
+        "headerChoice": "03 33 00- Architectural Concrete",
+        "costComponentsInformation": [
+          "0007: True,  ",
+          "0008: False,  ",
+          "0009: double,  ",
+          "0010: iceland,  "
+        ],
+        "id": 6
+      }
+    ]
+  }

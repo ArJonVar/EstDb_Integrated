@@ -1,0 +1,7 @@
+Object.keys(state).map
+
+access json as array via: Import { output } from “./output.json”;
+npm install prettier --global (local)
+-make git proj work
+
+yarn at prettier
