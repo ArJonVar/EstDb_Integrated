@@ -28,7 +28,7 @@ def auth_flow(reactAuthCode):
         url = "https://api.smartsheet.com/2.0/token"
         headers = CaseInsensitiveDict()
         headers["Content-Type"] = "application/x-www-form-urlencoded"
-        data = f'grant_type=authorization_code&code={auth_code}&client_id=o50ix7yzq7uh61cdqld&client_secret=9kwypxclzyfl9zi0yck'
+        data = f'grant_type=authorization_code&code={auth_code}&client_id=o50ix7yzq7uh61cdqld&client_secret=SECRET'
         r=requests.post(url=url, data=data, headers=headers)
         result_json=json.loads(r.content)
         log(message='result_json',data=result_json)
